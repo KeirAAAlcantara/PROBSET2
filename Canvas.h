@@ -12,7 +12,7 @@ using namespace std;
 class Canvas : public QWidget{
     Q_OBJECT
 public: 
-    canvas(vector<atomic<float>> *temp = nullptr,
+    Canvas(vector<atomic<float>> *temp = nullptr,
     vector<QPointF> *positions = nullptr,
     vector<QColor> *colors = nullptr,
     QWidget *parent = nullptr);
@@ -24,4 +24,4 @@ private:
     vector<atomic<float>> *temp;
     vector<QPointF> *positions;
     vector<QColor> *colors;
-}
+};

@@ -1,4 +1,4 @@
-#include "canvas.h"
+#include "Canvas.h"
 #include <QRectF> 
 
 Canvas::Canvas(vector<atomic<float>> *temp,
@@ -8,22 +8,22 @@ Canvas::Canvas(vector<atomic<float>> *temp,
         : QWidget(parent), temp(temp), positions(positions), colors(colors){}
 
 void Canvas::paintEvent(QPaintEvent *){
-    if(!temps || !positions || !colors){
+    if(!temp || !positions || !colors){
         qWarning() << "missing values" ;
         return;
     }
     
     QPainter painter(this);
-    painter.setRender(QPainter::Antialiasing)
+    painter.setRenderHint(QPainter::Antialiasing);
 
     int radius = 25;
 
-    for(size_t i=0; i<temp->size(), ++i){
+    for(size_t i=0; i<temp->size(); ++i){
         float temperature = temp->at(i).load();
         QPointF pos = positions->at(i);
         QColor color = colors->at(i);
 
-        QColor fill color = color.lighter(100 + int(temp*2));
+        QColor fillColor = color.lighter(100 + int(temperature*2));
         painter.setBrush(fillColor);
         painter.setPen(Qt::black);
 

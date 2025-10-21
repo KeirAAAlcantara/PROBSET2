@@ -1,0 +1,5 @@
+/Users/karencafe/Desktop/probSet2/build/CMakeFiles/probSet2.dir
+/Users/karencafe/Desktop/probSet2/build/CMakeFiles/edit_cache.dir
+/Users/karencafe/Desktop/probSet2/build/CMakeFiles/rebuild_cache.dir
+/Users/karencafe/Desktop/probSet2/build/CMakeFiles/probSet2_autogen_timestamp_deps.dir
+/Users/karencafe/Desktop/probSet2/build/CMakeFiles/probSet2_autogen.dir
