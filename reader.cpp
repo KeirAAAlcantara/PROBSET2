@@ -1,11 +1,11 @@
 #include <fstream> 
 #include <iostream>
 #include <QFile>
-#include <QColor>
 #include <sstream>
 #include <vector> 
-#include <QDebug> 
 #include <QString> 
+#include "reader.h
+#include <cstdlib>
 
 using namespace std;
 
@@ -48,4 +48,5 @@ void reader(const QString& fileName){
         }
     }
     file.close();
+    qDebug() << "Loaded" << sensors.size() <<"sensors with distance threshold " << distanceThreshold;
 }

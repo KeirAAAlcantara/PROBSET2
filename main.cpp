@@ -3,11 +3,14 @@
 #include <atomic>
 #include <chrono>
 #include <thread> 
+#include "reader.h"
 
 using namespace std;
 
 int main(int argc, char *argv[]){
     QApplication app(argc, argv);
+    reader("config.txt");
+    
     vector<atomic<float>> temp;
     vector<QPointF> positions;
     vector<QColor> colors;
