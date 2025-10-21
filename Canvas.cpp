@@ -19,56 +19,77 @@ void Canvas::updateDisplay() {
     update();
 }
 
-void Canvas::paintEvent(QPaintEvent *event) {
+void Canvas::paintEvent(QPaintEvent *event){
     Q_UNUSED(event);
-    if (!temp || !positions || !colors) {
-        qWarning() << "Missing data vectors.";
+    if(!temp || !positions || !colors){
+        qWarning() << "Missing values";
         return;
     }
 
-    QPainter painter(this);
-    painter.setRenderHint(QPainter::Antialiasing);
-    painter.setRenderHint(QPainter::TextAntialiasing);
+    int w = width();
+    int h = height();
 
+    QImage img(w, h, QImage::Format_RGB32);
+
+    // Get temperature range
     float minTemp = std::numeric_limits<float>::max();
     float maxTemp = std::numeric_limits<float>::lowest();
-
     for (const auto &t : *temp) {
-        float val = t->load(); 
+        float val = t->load();
         minTemp = std::min(minTemp, val);
         maxTemp = std::max(maxTemp, val);
     }
 
-    int radius = width() / 40;
-    float range = maxTemp - minTemp;
-    if (range == 0) range = 1.0f;
+    // Step 3: Fill each pixel with color of nearest sensor
+    for (int y = 0; y < h; ++y) {
+        for (int x = 0; x < w; ++x) {
+            int nearestIdx = -1;
+            float nearestDist = std::numeric_limits<float>::max();
 
-    for (size_t i = 0; i < temp->size(); ++i) {
-        if (i >= positions->size() || i >= colors->size()) continue;
+            // find nearest sensor
+            for (size_t i = 0; i < positions->size(); ++i) {
+                QPointF p = positions->at(i);
+                float dx = x - p.x();
+                float dy = y - p.y();
+                float dist = dx*dx + dy*dy;
+                if (dist < nearestDist) {
+                    nearestDist = dist;
+                    nearestIdx = i;
+                }
+            }
 
-        float currentTemperature = (*temp)[i]->load();
-        QPointF pos = (*positions)[i];
-        QColor baseColor = (*colors)[i];
+            if (nearestIdx >= 0) {
+                float currentTemp = temp->at(nearestIdx)->load();
+                float normalizedTemp = (currentTemp - minTemp) / (maxTemp - minTemp);
+                normalizedTemp = qBound(0.0f, normalizedTemp, 1.0f);
 
-        float normalizedTemp = (currentTemperature - minTemp) / range;
-        normalizedTemp = qBound(0.0f, normalizedTemp, 1.0f);
+                QColor coldColor(Qt::blue);
+                QColor hotColor(Qt::red);
+                QColor fillColor;
+                fillColor.setRgbF(
+                    coldColor.redF() * (1.0f - normalizedTemp) + hotColor.redF() * normalizedTemp,
+                    coldColor.greenF() * (1.0f - normalizedTemp) + hotColor.greenF() * normalizedTemp,
+                    coldColor.blueF() * (1.0f - normalizedTemp) + hotColor.blueF() * normalizedTemp
+                );
+                img.setPixelColor(x, y, fillColor);
+            }
+        }
+    }
 
-        QColor coldColor(Qt::blue);
-        QColor hotColor(Qt::red);
-        QColor fillColor;
-        fillColor.setRgbF(
-            coldColor.redF() * (1.0f - normalizedTemp) + hotColor.redF() * normalizedTemp,
-            coldColor.greenF() * (1.0f - normalizedTemp) + hotColor.greenF() * normalizedTemp,
-            coldColor.blueF() * (1.0f - normalizedTemp) + hotColor.blueF() * normalizedTemp
-        );
+    // Step 4: Draw image
+    QPainter painter(this);
+    painter.drawImage(0, 0, img);
 
-        painter.setBrush(fillColor);
-        painter.setPen(Qt::black);
-        painter.drawEllipse(pos, radius, radius);
+    // Step 5: Draw sensor positions + temperature
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.setPen(Qt::black);
+    painter.setFont(QFont("Arial", 10));
 
+    for (size_t i = 0; i < positions->size(); ++i) {
+        QPointF pos = positions->at(i);
+        float currentTemperature = temp->at(i)->load();
         QString text = QString::number(currentTemperature, 'f', 1);
-        QRectF textRect(pos.x() - radius, pos.y() - radius, radius * 2, radius * 2);
-        painter.setFont(QFont("Arial", 10));
-        painter.drawText(textRect, Qt::AlignCenter, text);
+        painter.drawEllipse(pos, 4, 4);
+        painter.drawText(pos + QPointF(6, -6), text);
     }
 }
