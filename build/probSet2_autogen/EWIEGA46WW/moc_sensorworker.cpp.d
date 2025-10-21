@@ -1,4 +1,4 @@
-/Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_MainWindow.cpp: /Users/karencafe/Desktop/probSet2/MainWindow.h \
+/Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_sensorworker.cpp: /Users/karencafe/Desktop/probSet2/sensorworker.h \
   /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h \
@@ -134,7 +134,6 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unwrap_ref.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/access.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/advance.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h \
@@ -235,6 +234,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator \
@@ -244,12 +244,11 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/set \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/span \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdexcept \
@@ -264,8 +263,6 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/variant \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
@@ -315,18 +312,14 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
-  /Users/karencafe/Desktop/probSet2/Canvas.h \
-  /Users/karencafe/Desktop/probSet2/voronoi.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QPointF \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20utility.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -336,7 +329,6 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
@@ -352,14 +344,10 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
@@ -369,19 +357,14 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
@@ -396,17 +379,9 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qspan.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstdlibdetection.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
@@ -432,9 +407,8 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationdefinitions.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -445,57 +419,7 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/QColor \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/QPainter \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontvariableaxis.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h

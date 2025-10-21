@@ -29,7 +29,16 @@ void Canvas::paintEvent(QPaintEvent *event){
     painter.setRenderHint(QPainter::Antialiasing);
     painter.setRenderHint(QPainter::TextAntialiasing);
 
-    int radius = 25;
+    float minTemp = std::numeric_limits<float>::max();
+    float maxTemp = std::numeric_limits<float>::lowest();
+
+    for (const auto &t : *temp) {
+        float val = t.load();
+        minTemp = std::min(minTemp, val);
+        maxTemp = std::max(maxTemp, val);
+    }
+
+    int radius = width()/40;
 
     for(size_t i=0; i<temp->size(); ++i){
         if(i >= positions->size() || i >= colors->size()){
@@ -37,7 +46,7 @@ void Canvas::paintEvent(QPaintEvent *event){
             continue;
         }
 
-        float currentTemperature = temp->at(i).load();
+        float currentTemperature = temp->at(i)->load();
         QPointF pos = positions->at(i);
         QColor baseColor = colors->at(i);
 
@@ -59,7 +68,7 @@ void Canvas::paintEvent(QPaintEvent *event){
 
         painter.drawEllipse(pos, radius, radius);
         
-        QString text = QString::number(temp, 'f', 1);
+        QString text = QString::number(currentTemperature, 'f', 1);
         QRectF textRect(pos.x() - radius, pos.y() - radius, radius*2, radius*2);
         painter.setFont(QFont("Arial", 10));
         painter.drawText(textRect, Qt::AlignCenter, text);

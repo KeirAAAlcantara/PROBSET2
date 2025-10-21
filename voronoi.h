@@ -11,8 +11,8 @@ using namespace std;
 class voronoi {
 
 public: 
-    voronoi(int id, float threshold, vector<atomic<float>> *allTemp, 
-            const vector<QPointF> *allPositions);
+    voronoi(int id, float threshold, vector<shared_ptr<atomic<float>>> *allTemp, 
+        vector<QPointF> *positions);
 
     void start();
     void stop();
@@ -27,7 +27,7 @@ private:
     int id; 
     float threshold;
 
-    vector<atomic<float>> *allTemp;
+    vector<shared_ptr<atomic<float>>> *allTemp;
     const vector<QPointF> *allPositions;
 
     thread workerThread;

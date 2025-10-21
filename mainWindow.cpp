@@ -1,20 +1,19 @@
 #include "MainWindow.h"
-// #include "ui_MainWindow.h" // Uncomment if using a .ui file
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFileDialog>
 #include <QTextStream>
 #include <QMessageBox>
-#include <QRandomGenerator> // For initial random colors if not in config
+#include <QRandomGenerator>
 #include <QDebug>
+#include <QDir>
+#include <QCoreApplication>
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    // , ui(new Ui::MainWindow) // Uncomment if using a .ui file
-{
-    // ui->setupUi(this); // Uncomment if using a .ui file
+    : QMainWindow(parent) {
+
     setWindowTitle("Sensor Temperature Simulation");
-    setFixedSize(800, 600); // Fixed window size
+    setFixedSize(800, 600);
 
     QWidget *centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
@@ -22,11 +21,11 @@ MainWindow::MainWindow(QWidget *parent)
     QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
     QHBoxLayout *buttonLayout = new QHBoxLayout();
 
-    // Initialize Canvas, passing const pointers as Canvas only reads
+    // Canvas initialization (pass references)
     canvas = new Canvas(&temperatures, &positions, &colors, this);
-    mainLayout->addWidget(canvas, 1); // Give canvas more space
+    mainLayout->addWidget(canvas, 1);
 
-    // Setup buttons
+    // Buttons
     QPushButton *loadButton = new QPushButton("Load Config File", this);
     connect(loadButton, &QPushButton::clicked, this, &MainWindow::loadConfigFile);
     buttonLayout->addWidget(loadButton);
@@ -41,39 +40,34 @@ MainWindow::MainWindow(QWidget *parent)
 
     mainLayout->addLayout(buttonLayout);
 
-    // Setup GUI update timer
+    // Timer for periodic GUI updates
     guiUpdateTimer = new QTimer(this);
     connect(guiUpdateTimer, &QTimer::timeout, this, &MainWindow::updateCanvasDisplay);
-    guiUpdateTimer->start(50); // Update GUI every 50ms (20 FPS)
+    guiUpdateTimer->start(50);
 }
 
-MainWindow::~MainWindow()
-{
-    stopSimulation(); // Ensure all agent threads are stopped
-    // delete ui; // Uncomment if using a .ui file
+MainWindow::~MainWindow() {
+    stopSimulation();
 }
 
 void MainWindow::clearSimulationData() {
-    stopSimulation(); // Stop any running agents first
-    agents.clear(); // This will destroy SensorAgent objects, calling their destructors
+    stopSimulation();
+    for (auto *worker : workers) {
+        delete worker;
+    }
+    worker.clear();
+    agents.clear();
     temperatures.clear();
     positions.clear();
     colors.clear();
     distanceThreshold = 0.0f;
-    canvas->update(); // Clear the display
+    canvas->update();
 }
 
-void MainWindow::loadConfigFile()
-{
+void MainWindow::loadConfigFile() {
     QString filePath = QCoreApplication::applicationDirPath() + QDir::separator() + "config.txt";
 
     qInfo() << "Attempting to load config from:" << filePath;
-    /* 
-    QString filePath = QFileDialog::getOpenFileName(this, "Open Configuration File", "", "Text Files (*.txt);;All Files (*)");
-    if (filePath.isEmpty()) {
-        return;
-    }
-    */
 
     QFile file(filePath);
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -82,9 +76,9 @@ void MainWindow::loadConfigFile()
     }
 
     QTextStream in(&file);
-    clearSimulationData(); // Clear previous data before loading new
+    clearSimulationData();
 
-    // Read distance threshold from the first line
+    // Read threshold
     if (!in.atEnd()) {
         QString line = in.readLine();
         bool ok;
@@ -101,11 +95,12 @@ void MainWindow::loadConfigFile()
         return;
     }
 
-    int id_counter = 0;
+    // Read sensors
+    int idCounter = 0;
     while (!in.atEnd()) {
         QString line = in.readLine();
         QStringList parts = line.split(' ', Qt::SkipEmptyParts);
-        if (parts.size() >= 3) { // Expect x, y, initial_temp
+        if (parts.size() >= 3) {
             bool okX, okY, okTemp;
             float x = parts[0].toFloat(&okX);
             float y = parts[1].toFloat(&okY);
@@ -113,56 +108,69 @@ void MainWindow::loadConfigFile()
 
             if (okX && okY && okTemp) {
                 positions.push_back(QPointF(x, y));
-                temperatures.push_back(std::atomic<float>(initialTemp));
-                // Assign a random color if not specified in config (or load from config)
-                colors.push_back(QColor(QRandomGenerator::global()->bounded(256),
-                                        QRandomGenerator::global()->bounded(256),
-                                        QRandomGenerator::global()->bounded(256)));
+                temperatures.push_back(std::make_shared<std::atomic<float>>(initialTemp));
+                colors.push_back(QColor(
+                    QRandomGenerator::global()->bounded(256),
+                    QRandomGenerator::global()->bounded(256),
+                    QRandomGenerator::global()->bounded(256)
+                ));
 
-                // Create agent with the loaded threshold
                 agents.push_back(std::make_unique<voronoi>(
-                    id_counter++, distanceThreshold, &temperatures, &positions));
+                    idCounter++, distanceThreshold, &temperatures, &positions));
             } else {
-                qWarning() << "MainWindow::loadConfigFile: Failed to parse data on line: " << line;
+                qWarning() << "Failed to parse line:" << line;
             }
         } else if (!line.trimmed().isEmpty()) {
-             qWarning() << "MainWindow::loadConfigFile: Malformed line (expected 3 values): " << line;
+            qWarning() << "Malformed line (expected 3 values):" << line;
         }
     }
     file.close();
 
+        // Create one SensorWorker thread per sensor
+    for (int i = 0; i < positions.size(); ++i) {
+        auto *worker = new SensorWorker(i, &temperatures, &positions, distanceThreshold, this);
+        workers.push_back(worker);
+    }
+
     if (positions.empty()) {
         QMessageBox::warning(this, "Warning", "No sensor points loaded from config file.");
     } else {
-        QMessageBox::information(this, "Success", QString::number(positions.size()) + " sensor points loaded.");
-        canvas->updateDisplay(); // Initial draw with loaded data
+        QMessageBox::information(this, "Success",
+                                 QString::number(positions.size()) + " sensor points loaded.");
+        canvas->updateDisplay();
     }
 }
 
 void MainWindow::startSimulation()
 {
-    if (agents.empty()) {
+    if (workers.empty()) {
         QMessageBox::warning(this, "Warning", "No sensor data loaded. Please load data first.");
         return;
     }
 
-    for (const auto& agent : agents) {
-        agent->start(); // Start each sensor's thread
+    for (auto *worker : workers) {
+        if (!worker->isRunning()) {
+            worker->start();
+        }
     }
-    qInfo() << "Simulation started for" << agents.size() << "agents.";
+
+    qInfo() << "Simulation started with" << workers.size() << "sensor threads.";
 }
+
 
 void MainWindow::stopSimulation()
 {
-    if (agents.empty()) return;
-
-    for (const auto& agent : agents) {
-        agent->stop(); // Request each agent's thread to stop
+    for (auto *worker : workers) {
+        if (worker->isRunning()) {
+            worker->stop();
+            worker->wait(); // wait for clean thread exit
+        }
     }
-    qInfo() << "Simulation stopped.";
+
+    qInfo() << "All sensor threads stopped.";
 }
 
-void MainWindow::updateCanvasDisplay()
-{
-    canvas->updateDisplay(); // This will call canvas->update() in the main thread
+
+void MainWindow::updateCanvasDisplay() {
+    canvas->updateDisplay();
 }

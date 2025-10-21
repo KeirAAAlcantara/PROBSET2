@@ -352,15 +352,21 @@
 			null
 		],
 		[
-			"/Users/karencafe/Desktop/probSet2/mainWindow.h",
+			"/Users/karencafe/Desktop/probSet2/MainWindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainWindow.cpp",
+			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		],
 		[
 			"/Users/karencafe/Desktop/probSet2/reader.h",
 			"MU",
 			"EWIEGA46WW/moc_reader.cpp",
+			null
+		],
+		[
+			"/Users/karencafe/Desktop/probSet2/sensorworker.h",
+			"MU",
+			"EWIEGA46WW/moc_sensorworker.cpp",
 			null
 		]
 	],
@@ -425,9 +431,10 @@
 	"SOURCES" : 
 	[
 		[ "/Users/karencafe/Desktop/probSet2/Canvas.cpp", "MU", null ],
+		[ "/Users/karencafe/Desktop/probSet2/MainWindow.cpp", "MU", null ],
 		[ "/Users/karencafe/Desktop/probSet2/main.cpp", "MU", null ],
-		[ "/Users/karencafe/Desktop/probSet2/mainWindow.cpp", "MU", null ],
-		[ "/Users/karencafe/Desktop/probSet2/reader.cpp", "MU", null ]
+		[ "/Users/karencafe/Desktop/probSet2/reader.cpp", "MU", null ],
+		[ "/Users/karencafe/Desktop/probSet2/sensorworker.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

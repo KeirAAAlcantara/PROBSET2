@@ -319,12 +319,12 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Desktop/probSet2/CMakeLists.txt \
   /Users/karencafe/Desktop/probSet2/Canvas.cpp \
   /Users/karencafe/Desktop/probSet2/Canvas.h \
+  /Users/karencafe/Desktop/probSet2/MainWindow.cpp \
+  /Users/karencafe/Desktop/probSet2/MainWindow.h \
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
   probSet2_autogen/moc_predefs.h \
   /Users/karencafe/Desktop/probSet2/main.cpp \
-  /Users/karencafe/Desktop/probSet2/mainWindow.cpp \
-  /Users/karencafe/Desktop/probSet2/mainWindow.h \
   /Users/karencafe/Desktop/probSet2/reader.cpp \
   /Users/karencafe/Desktop/probSet2/reader.h \
   /Users/karencafe/Desktop/probSet2/voronoi.h \
@@ -821,8 +821,6 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
@@ -1173,6 +1171,8 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
@@ -1363,8 +1363,6 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Desktop/probSet2/reader.cpp:
 
-/Users/karencafe/Desktop/probSet2/main.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
 probSet2_autogen/moc_predefs.h:
@@ -1374,6 +1372,14 @@ probSet2_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/exchange.h:
 
 CMakeFiles/4.1.1/CMakeSystem.cmake:
+
+/Users/karencafe/Desktop/probSet2/MainWindow.h:
+
+/Users/karencafe/Desktop/probSet2/main.cpp:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
+
+/Users/karencafe/Desktop/probSet2/MainWindow.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h:
 
@@ -1885,10 +1891,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
-
-/Users/karencafe/Desktop/probSet2/mainWindow.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc:
@@ -2098,8 +2100,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
-
-/Users/karencafe/Desktop/probSet2/mainWindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef:
 

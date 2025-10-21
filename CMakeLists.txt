@@ -13,7 +13,8 @@ qt_add_executable(probSet2
     main.cpp
     Canvas.h Canvas.cpp
     reader.h reader.cpp
-    mainWindow.h mainWindow.cpp
+    MainWindow.h MainWindow.cpp
+    sensorworker.h sensorworker.cpp
 )
 
 target_link_libraries(probSet2 PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)

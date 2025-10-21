@@ -550,8 +550,8 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20algorithm.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q23type_traits.h \
-  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_mainWindow.cpp \
-  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../mainWindow.h \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_MainWindow.cpp \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../MainWindow.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
@@ -579,4 +579,10 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_sensorworker.cpp \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../sensorworker.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QThread \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex

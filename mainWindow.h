@@ -1,51 +1,42 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include <QTimer>
-#include <QPushButton> // For buttons
-#include <QLabel>      // For displaying threshold etc.
+#include <QPushButton>
+#include <QLabel>
+#include <QPointF>
+#include <vector>
+#include <atomic>
+#include <memory>
 
 #include "Canvas.h"
 #include "voronoi.h"
-#include <vector>
-#include <atomic>
-#include <memory> // For std::unique_ptr
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
-QT_END_NAMESPACE
-
-class MainWindow : public QMainWindow
-{
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
     void loadConfigFile();
     void startSimulation();
     void stopSimulation();
-    void updateCanvasDisplay(); // Slot for QTimer to update the canvas
+    void updateCanvasDisplay();
 
 private:
-    void clearSimulationData(); // Helper to clear vectors and stop agents
+    void clearSimulationData();
 
-    Ui::MainWindow *ui; // If you're using a .ui file, otherwise remove
+    Canvas *canvas = nullptr;
 
-    Canvas *canvas;
-
-    // Data structures owned by MainWindow
-    std::vector<std::atomic<float>> temperatures;
+    std::vector<std::shared_ptr<std::atomic<float>>> temperatures;
+    std::vector<SensorWorker*> workers;
     std::vector<QPointF> positions;
-    std::vector<QColor> colors; // Base colors for each sensor
+    std::vector<QColor> colors;
 
-    float distanceThreshold = 0.0f; // Loaded from config file
+    float distanceThreshold = 0.0f;
+    std::vector<std::unique_ptr<voronoi>> agents;
 
-    std::vector<std::unique_ptr<voronoi>> agents; // Manages sensor threads
-
-    QTimer *guiUpdateTimer; // Timer to periodically call updateCanvasDisplay
+    QTimer *guiUpdateTimer = nullptr;
 };
-#endif // MAINWINDOW_H

@@ -179,6 +179,30 @@ Canvas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/Canvas.cpp.s
 .PHONY : Canvas.cpp.s
 
+MainWindow.o: MainWindow.cpp.o
+.PHONY : MainWindow.o
+
+# target to build an object file
+MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/MainWindow.cpp.o
+.PHONY : MainWindow.cpp.o
+
+MainWindow.i: MainWindow.cpp.i
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -202,30 +226,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-mainWindow.o: mainWindow.cpp.o
-.PHONY : mainWindow.o
-
-# target to build an object file
-mainWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/mainWindow.cpp.o
-.PHONY : mainWindow.cpp.o
-
-mainWindow.i: mainWindow.cpp.i
-.PHONY : mainWindow.i
-
-# target to preprocess a source file
-mainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/mainWindow.cpp.i
-.PHONY : mainWindow.cpp.i
-
-mainWindow.s: mainWindow.cpp.s
-.PHONY : mainWindow.s
-
-# target to generate assembly for a file
-mainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/mainWindow.cpp.s
-.PHONY : mainWindow.cpp.s
 
 probSet2_autogen/mocs_compilation.o: probSet2_autogen/mocs_compilation.cpp.o
 .PHONY : probSet2_autogen/mocs_compilation.o
@@ -275,6 +275,30 @@ reader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/reader.cpp.s
 .PHONY : reader.cpp.s
 
+sensorworker.o: sensorworker.cpp.o
+.PHONY : sensorworker.o
+
+# target to build an object file
+sensorworker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/sensorworker.cpp.o
+.PHONY : sensorworker.cpp.o
+
+sensorworker.i: sensorworker.cpp.i
+.PHONY : sensorworker.i
+
+# target to preprocess a source file
+sensorworker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/sensorworker.cpp.i
+.PHONY : sensorworker.cpp.i
+
+sensorworker.s: sensorworker.cpp.s
+.PHONY : sensorworker.s
+
+# target to generate assembly for a file
+sensorworker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/sensorworker.cpp.s
+.PHONY : sensorworker.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -289,18 +313,21 @@ help:
 	@echo "... Canvas.o"
 	@echo "... Canvas.i"
 	@echo "... Canvas.s"
+	@echo "... MainWindow.o"
+	@echo "... MainWindow.i"
+	@echo "... MainWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainWindow.o"
-	@echo "... mainWindow.i"
-	@echo "... mainWindow.s"
 	@echo "... probSet2_autogen/mocs_compilation.o"
 	@echo "... probSet2_autogen/mocs_compilation.i"
 	@echo "... probSet2_autogen/mocs_compilation.s"
 	@echo "... reader.o"
 	@echo "... reader.i"
 	@echo "... reader.s"
+	@echo "... sensorworker.o"
+	@echo "... sensorworker.i"
+	@echo "... sensorworker.s"
 .PHONY : help
 
 

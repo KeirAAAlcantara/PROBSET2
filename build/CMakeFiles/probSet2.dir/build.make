@@ -135,19 +135,33 @@ CMakeFiles/probSet2.dir/reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/probSet2.dir/reader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karencafe/Desktop/probSet2/reader.cpp -o CMakeFiles/probSet2.dir/reader.cpp.s
 
-CMakeFiles/probSet2.dir/mainWindow.cpp.o: CMakeFiles/probSet2.dir/flags.make
-CMakeFiles/probSet2.dir/mainWindow.cpp.o: /Users/karencafe/Desktop/probSet2/mainWindow.cpp
-CMakeFiles/probSet2.dir/mainWindow.cpp.o: CMakeFiles/probSet2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karencafe/Desktop/probSet2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/probSet2.dir/mainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/probSet2.dir/mainWindow.cpp.o -MF CMakeFiles/probSet2.dir/mainWindow.cpp.o.d -o CMakeFiles/probSet2.dir/mainWindow.cpp.o -c /Users/karencafe/Desktop/probSet2/mainWindow.cpp
+CMakeFiles/probSet2.dir/MainWindow.cpp.o: CMakeFiles/probSet2.dir/flags.make
+CMakeFiles/probSet2.dir/MainWindow.cpp.o: /Users/karencafe/Desktop/probSet2/MainWindow.cpp
+CMakeFiles/probSet2.dir/MainWindow.cpp.o: CMakeFiles/probSet2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karencafe/Desktop/probSet2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/probSet2.dir/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/probSet2.dir/MainWindow.cpp.o -MF CMakeFiles/probSet2.dir/MainWindow.cpp.o.d -o CMakeFiles/probSet2.dir/MainWindow.cpp.o -c /Users/karencafe/Desktop/probSet2/MainWindow.cpp
 
-CMakeFiles/probSet2.dir/mainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/probSet2.dir/mainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karencafe/Desktop/probSet2/mainWindow.cpp > CMakeFiles/probSet2.dir/mainWindow.cpp.i
+CMakeFiles/probSet2.dir/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/probSet2.dir/MainWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karencafe/Desktop/probSet2/MainWindow.cpp > CMakeFiles/probSet2.dir/MainWindow.cpp.i
 
-CMakeFiles/probSet2.dir/mainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/probSet2.dir/mainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karencafe/Desktop/probSet2/mainWindow.cpp -o CMakeFiles/probSet2.dir/mainWindow.cpp.s
+CMakeFiles/probSet2.dir/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/probSet2.dir/MainWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karencafe/Desktop/probSet2/MainWindow.cpp -o CMakeFiles/probSet2.dir/MainWindow.cpp.s
+
+CMakeFiles/probSet2.dir/sensorworker.cpp.o: CMakeFiles/probSet2.dir/flags.make
+CMakeFiles/probSet2.dir/sensorworker.cpp.o: /Users/karencafe/Desktop/probSet2/sensorworker.cpp
+CMakeFiles/probSet2.dir/sensorworker.cpp.o: CMakeFiles/probSet2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/karencafe/Desktop/probSet2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/probSet2.dir/sensorworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/probSet2.dir/sensorworker.cpp.o -MF CMakeFiles/probSet2.dir/sensorworker.cpp.o.d -o CMakeFiles/probSet2.dir/sensorworker.cpp.o -c /Users/karencafe/Desktop/probSet2/sensorworker.cpp
+
+CMakeFiles/probSet2.dir/sensorworker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/probSet2.dir/sensorworker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/karencafe/Desktop/probSet2/sensorworker.cpp > CMakeFiles/probSet2.dir/sensorworker.cpp.i
+
+CMakeFiles/probSet2.dir/sensorworker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/probSet2.dir/sensorworker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/karencafe/Desktop/probSet2/sensorworker.cpp -o CMakeFiles/probSet2.dir/sensorworker.cpp.s
 
 # Object files for target probSet2
 probSet2_OBJECTS = \
@@ -155,7 +169,8 @@ probSet2_OBJECTS = \
 "CMakeFiles/probSet2.dir/main.cpp.o" \
 "CMakeFiles/probSet2.dir/Canvas.cpp.o" \
 "CMakeFiles/probSet2.dir/reader.cpp.o" \
-"CMakeFiles/probSet2.dir/mainWindow.cpp.o"
+"CMakeFiles/probSet2.dir/MainWindow.cpp.o" \
+"CMakeFiles/probSet2.dir/sensorworker.cpp.o"
 
 # External object files for target probSet2
 probSet2_EXTERNAL_OBJECTS =
@@ -164,13 +179,14 @@ probSet2: CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o
 probSet2: CMakeFiles/probSet2.dir/main.cpp.o
 probSet2: CMakeFiles/probSet2.dir/Canvas.cpp.o
 probSet2: CMakeFiles/probSet2.dir/reader.cpp.o
-probSet2: CMakeFiles/probSet2.dir/mainWindow.cpp.o
+probSet2: CMakeFiles/probSet2.dir/MainWindow.cpp.o
+probSet2: CMakeFiles/probSet2.dir/sensorworker.cpp.o
 probSet2: CMakeFiles/probSet2.dir/build.make
 probSet2: /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 probSet2: /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/QtGui
 probSet2: /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore
 probSet2: CMakeFiles/probSet2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/karencafe/Desktop/probSet2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable probSet2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/karencafe/Desktop/probSet2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable probSet2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/probSet2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

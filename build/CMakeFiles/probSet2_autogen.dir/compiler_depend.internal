@@ -320,12 +320,12 @@
  /Users/karencafe/Desktop/probSet2/CMakeLists.txt
  /Users/karencafe/Desktop/probSet2/Canvas.cpp
  /Users/karencafe/Desktop/probSet2/Canvas.h
+ /Users/karencafe/Desktop/probSet2/MainWindow.cpp
+ /Users/karencafe/Desktop/probSet2/MainWindow.h
  /Users/karencafe/Desktop/probSet2/build/CMakeFiles/4.1.1/CMakeCXXCompiler.cmake
  /Users/karencafe/Desktop/probSet2/build/CMakeFiles/4.1.1/CMakeSystem.cmake
  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/moc_predefs.h
  /Users/karencafe/Desktop/probSet2/main.cpp
- /Users/karencafe/Desktop/probSet2/mainWindow.cpp
- /Users/karencafe/Desktop/probSet2/mainWindow.h
  /Users/karencafe/Desktop/probSet2/reader.cpp
  /Users/karencafe/Desktop/probSet2/reader.h
  /Users/karencafe/Desktop/probSet2/voronoi.h

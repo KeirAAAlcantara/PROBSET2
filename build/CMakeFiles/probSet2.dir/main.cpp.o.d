@@ -540,7 +540,7 @@ CMakeFiles/probSet2.dir/main.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/karencafe/Desktop/probSet2/mainWindow.h \
+  /Users/karencafe/Desktop/probSet2/MainWindow.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qwidget.h \
@@ -568,6 +568,7 @@ CMakeFiles/probSet2.dir/main.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
   /Users/karencafe/Desktop/probSet2/Canvas.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/QColor \
@@ -575,7 +576,6 @@ CMakeFiles/probSet2.dir/main.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpen.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
   /Users/karencafe/Desktop/probSet2/voronoi.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
