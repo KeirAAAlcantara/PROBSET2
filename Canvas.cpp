@@ -1,30 +1,31 @@
 #include "Canvas.h"
-#include <QRectF> 
+#include <QRectF>
 #include <QDebug>
-#include <QPoint> 
+#include <QPoint>
 
-Canvas::Canvas(const vector<atomic<float>> *temp,
-                const vector<QPointF> *positions,
-                const vector<QColor> *colors,
-                QWidget *parent)
-        : QWidget(parent), temp(temp), positions(positions), colors(colors){
-            QPalette pal = palette();
-            pal.setColor(QPalette::Window, Qt::white);
-            setAutoFillBackground(true);
-            setPalette(pal);
-        }
+Canvas::Canvas(const vector<shared_ptr<atomic<float>>> *temp,
+               const vector<QPointF> *positions,
+               const vector<QColor> *colors,
+               QWidget *parent)
+    : QWidget(parent), temp(temp), positions(positions), colors(colors)
+{
+    QPalette pal = palette();
+    pal.setColor(QPalette::Window, Qt::white);
+    setAutoFillBackground(true);
+    setPalette(pal);
+}
 
-void Canvas::updateDisplay(){
+void Canvas::updateDisplay() {
     update();
 }
 
-void Canvas::paintEvent(QPaintEvent *event){
+void Canvas::paintEvent(QPaintEvent *event) {
     Q_UNUSED(event);
-    if(!temp || !positions || !colors){
-        qWarning() << "missing values" ;
+    if (!temp || !positions || !colors) {
+        qWarning() << "Missing data vectors.";
         return;
     }
-    
+
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing);
     painter.setRenderHint(QPainter::TextAntialiasing);
@@ -33,43 +34,40 @@ void Canvas::paintEvent(QPaintEvent *event){
     float maxTemp = std::numeric_limits<float>::lowest();
 
     for (const auto &t : *temp) {
-        float val = t.load();
+        float val = t->load(); 
         minTemp = std::min(minTemp, val);
         maxTemp = std::max(maxTemp, val);
     }
 
-    int radius = width()/40;
+    int radius = width() / 40;
+    float range = maxTemp - minTemp;
+    if (range == 0) range = 1.0f;
 
-    for(size_t i=0; i<temp->size(); ++i){
-        if(i >= positions->size() || i >= colors->size()){
-            qWarning() << "Error";
-            continue;
-        }
+    for (size_t i = 0; i < temp->size(); ++i) {
+        if (i >= positions->size() || i >= colors->size()) continue;
 
-        float currentTemperature = temp->at(i)->load();
-        QPointF pos = positions->at(i);
-        QColor baseColor = colors->at(i);
+        float currentTemperature = (*temp)[i]->load();
+        QPointF pos = (*positions)[i];
+        QColor baseColor = (*colors)[i];
 
-        float normalizedTemp = (currentTemperature - minTemp)/(maxTemp - minTemp);
+        float normalizedTemp = (currentTemperature - minTemp) / range;
         normalizedTemp = qBound(0.0f, normalizedTemp, 1.0f);
 
         QColor coldColor(Qt::blue);
         QColor hotColor(Qt::red);
-        QColor interpolatedColor;
-        interpolatedColor.setRgbF(
+        QColor fillColor;
+        fillColor.setRgbF(
             coldColor.redF() * (1.0f - normalizedTemp) + hotColor.redF() * normalizedTemp,
             coldColor.greenF() * (1.0f - normalizedTemp) + hotColor.greenF() * normalizedTemp,
             coldColor.blueF() * (1.0f - normalizedTemp) + hotColor.blueF() * normalizedTemp
         );
 
-        QColor fillColor = interpolatedColor;
         painter.setBrush(fillColor);
         painter.setPen(Qt::black);
-
         painter.drawEllipse(pos, radius, radius);
-        
+
         QString text = QString::number(currentTemperature, 'f', 1);
-        QRectF textRect(pos.x() - radius, pos.y() - radius, radius*2, radius*2);
+        QRectF textRect(pos.x() - radius, pos.y() - radius, radius * 2, radius * 2);
         painter.setFont(QFont("Arial", 10));
         painter.drawText(textRect, Qt::AlignCenter, text);
     }

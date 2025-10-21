@@ -235,6 +235,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator \
@@ -244,6 +245,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
@@ -316,8 +318,9 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
   /Users/karencafe/Desktop/probSet2/Canvas.h \
-  /Users/karencafe/Desktop/probSet2/voronoi.h \
+  /Users/karencafe/Desktop/probSet2/sensorworker.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QPointF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -434,6 +437,7 @@
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \

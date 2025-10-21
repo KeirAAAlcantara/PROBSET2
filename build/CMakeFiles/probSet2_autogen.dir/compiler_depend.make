@@ -236,6 +236,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator \
@@ -245,6 +246,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
@@ -327,8 +329,10 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Desktop/probSet2/main.cpp \
   /Users/karencafe/Desktop/probSet2/reader.cpp \
   /Users/karencafe/Desktop/probSet2/reader.h \
-  /Users/karencafe/Desktop/probSet2/voronoi.h \
+  /Users/karencafe/Desktop/probSet2/sensorworker.cpp \
+  /Users/karencafe/Desktop/probSet2/sensorworker.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QPointF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QThread \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -445,6 +449,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
@@ -721,23 +726,81 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /usr/local/bin/cmake \
+  /usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake/Modules/CheckLibraryExists.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /usr/local/share/cmake/Modules/Compiler/Clang.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/local/share/cmake/Modules/FindPackageMessage.cmake \
@@ -745,15 +808,19 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /usr/local/share/cmake/Modules/GNUInstallDirs.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang.cmake \
   /usr/local/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin.cmake \
   /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake \
@@ -769,29 +836,135 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /usr/local/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake:
 
+/usr/local/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake:
+
+/usr/local/share/cmake/Modules/MacroAddFileDependencies.cmake:
+
+/usr/local/share/cmake/Modules/Linker/AppleClang.cmake:
+
 /usr/local/share/cmake/Modules/Linker/AppleClang-CXX.cmake:
+
+/usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake:
 
 /usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
-/usr/local/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
+/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
+
+/usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
+
+/usr/local/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
 /usr/local/share/cmake/Modules/FindThreads.cmake:
 
-/usr/local/share/cmake/Modules/CheckIncludeFileCXX.cmake:
+/usr/local/share/cmake/Modules/FindPackageMessage.cmake:
 
-/usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake:
+/usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h:
+
+/usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+
+/usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
+CMakeFiles/4.1.1/CMakeSystem.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime:
+
+/usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h:
+
+/usr/local/share/cmake/Modules/CheckIncludeFileCXX.cmake:
 
 /usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
+/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:
+
+probSet2_autogen/moc_predefs.h:
+
+/usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
+
+/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
 /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
 
+/usr/local/share/cmake/Modules/CMakeSystem.cmake.in:
+
+/usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
+
+/usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+
 /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake:
+
+/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
 /usr/local/bin/cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
 
@@ -803,37 +976,51 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Targets.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
-/usr/local/share/cmake/Modules/FindPackageMessage.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstring:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwchar:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake:
 
-/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/sched.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
 
@@ -865,29 +1052,43 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
-/usr/local/share/cmake/Modules/GNUInstallDirs.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake:
 
 /usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/size.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wchar.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -907,6 +1108,8 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
@@ -914,6 +1117,8 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersionImpl.cmake:
+
+/usr/local/share/cmake/Modules/Platform/UnixPaths.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateAdditionalTargetInfo.cmake:
 
@@ -925,17 +1130,21 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/types.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
 /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uintptr_t.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake:
 
@@ -947,11 +1156,15 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake:
 
@@ -963,17 +1176,29 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/operations.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
+/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h:
 
 /usr/local/share/cmake/Modules/Compiler/GNU.cmake:
 
@@ -981,9 +1206,13 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake:
 
@@ -995,17 +1224,29 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
+/usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
@@ -1013,45 +1254,47 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
+
+/usr/local/share/cmake/Modules/FindOpenGL.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtFeatureCommon.cmake:
+
+/Users/karencafe/Desktop/probSet2/sensorworker.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtFeature.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Targets.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
-/usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+/usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/max.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Config.cmake:
 
@@ -1061,8 +1304,6 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h:
@@ -1071,17 +1312,19 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h:
 
@@ -1089,13 +1332,23 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/data.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
+
+/usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h:
 
@@ -1105,33 +1358,31 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontvariableaxis.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h:
+/usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
+/usr/local/share/cmake/Modules/Platform/Darwin-Initialize.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/QPainter:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/QColor:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
@@ -1141,27 +1392,43 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qthread.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationdefinitions.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int32_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h:
 
@@ -1177,13 +1444,15 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h:
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake:
+/usr/local/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h:
 
@@ -1192,6 +1461,8 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/initializer_list:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h:
 
@@ -1203,17 +1474,35 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h:
 
+/usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h:
 
@@ -1225,7 +1514,11 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qline.h:
 
@@ -1235,15 +1528,25 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits:
+
 /Users/karencafe/Desktop/probSet2/Canvas.cpp:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstdlibdetection.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h:
 
@@ -1251,17 +1554,15 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h:
 
+/usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/atomic:
 
@@ -1273,15 +1574,25 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h:
+
+/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int64_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
@@ -1289,33 +1600,43 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind_front.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h:
 
+/usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/span:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h:
 
@@ -1323,17 +1644,17 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityVersions.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h:
 
-/usr/local/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/max_element.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
@@ -1343,45 +1664,45 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_if.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer:
-
-/usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QThread:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QPointF:
 
-/Users/karencafe/Desktop/probSet2/voronoi.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
 /Users/karencafe/Desktop/probSet2/reader.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
-probSet2_autogen/moc_predefs.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/exchange.h:
-
-CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Desktop/probSet2/MainWindow.h:
 
 /Users/karencafe/Desktop/probSet2/main.cpp:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
 /Users/karencafe/Desktop/probSet2/MainWindow.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site:
 
@@ -1389,13 +1710,15 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Desktop/probSet2/Canvas.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/in_place.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake:
 
@@ -1407,13 +1730,23 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/climits:
 
+/usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h:
+
+/usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int8_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_timespec.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/declval.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
@@ -1423,31 +1756,29 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mach_port_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int32_t.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_clock_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_t.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h:
 
@@ -1457,13 +1788,15 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/qos.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
+/usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
+
+/usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_posix_availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int32_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_types.h:
 
@@ -1471,21 +1804,19 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/types.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/variant:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/utility:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/prev.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_set:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
@@ -1493,55 +1824,41 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/distance.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sample.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_types.h:
+
+/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdexcept:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdbool.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/span:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wchar.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
-
-/usr/local/share/cmake/Modules/Platform/Darwin-Initialize.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ratio:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/in_place.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qspan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
@@ -1555,11 +1872,23 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/Availability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/list:
+
+/usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake:
 
@@ -1567,25 +1896,31 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string_view:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/to_underlying.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwchar:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstring:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/to_underlying.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread_impl.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h:
 
@@ -1594,8 +1929,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdlib:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio:
-
-/usr/local/share/cmake/Modules/FindOpenGL.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
 
@@ -1607,13 +1940,15 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdint:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/pair.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/identity.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/map:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/type_traits:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
@@ -1621,11 +1956,11 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h:
 
@@ -1643,39 +1978,33 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/clamp.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/identity.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__variant/monostate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sample.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/swap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/pair.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/set:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/forward.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/declval.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfig.cmake:
 
@@ -1691,8 +2020,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h:
 
-/usr/local/share/cmake/Modules/Platform/UnixPaths.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h:
@@ -1705,9 +2032,11 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace.h:
 
-/usr/local/share/cmake/Modules/Linker/AppleClang.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array:
 
@@ -1715,43 +2044,33 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uintptr_t.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h:
+/usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/access.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
+
+/usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h:
 
-/usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/addressof.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__string:
 
@@ -1761,27 +2080,25 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/size.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
+
+/usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_negate.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/max.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h:
 
@@ -1801,17 +2118,11 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__undef_macros:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_posix_availability.h:
+/usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwctype:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
@@ -1821,9 +2132,9 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mbstate_t.h:
+
+/usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
@@ -1837,10 +2148,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/concepts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/access.h:
@@ -1851,21 +2158,21 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/hash.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/operations.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/not_fn.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts:
 
@@ -1881,39 +2188,39 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/function.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_null.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_union.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_function.h:
+/usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc:
 
-/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:
+/usr/local/share/cmake/Modules/GNUInstallDirs.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/min.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/distance.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h:
 
@@ -1923,13 +2230,9 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map:
 
@@ -1937,9 +2240,9 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h:
 
@@ -1949,25 +2252,17 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/chrono:
 
-/usr/local/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_safety.h:
 
@@ -1979,31 +2274,23 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/search_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bit:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
 CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
-/usr/local/share/cmake/Modules/MacroAddFileDependencies.cmake:
-
 /usr/local/share/cmake/Modules/Compiler/Clang.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
+
+/usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
@@ -2015,29 +2302,23 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/future:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/__decay_copy.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int16_t.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
+/usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
@@ -2047,14 +2328,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/empty.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
@@ -2063,25 +2336,19 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Users/karencafe/Desktop/probSet2/reader.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/merge.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateDependencies.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
@@ -2089,33 +2356,27 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
+
+/Users/karencafe/Desktop/probSet2/sensorworker.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/data.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tree:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/merge.h:
-
-/usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
@@ -2125,15 +2386,7 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
@@ -2143,17 +2396,9 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tree:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_negate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count_if.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
@@ -2161,29 +2406,19 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_size_t.h:
 
@@ -2203,11 +2438,7 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind_front.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
 
@@ -2217,23 +2448,15 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_time_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
+/usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
 /usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
@@ -2241,23 +2464,11 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int64_t.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
@@ -2265,14 +2476,4 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateDependencies.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/Availability.h:

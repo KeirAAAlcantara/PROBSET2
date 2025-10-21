@@ -572,17 +572,16 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h \
-  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../voronoi.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
-  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_sensorworker.cpp \
   /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../sensorworker.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QThread \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_sensorworker.cpp

@@ -18,7 +18,6 @@ public:
     const vector<QColor> *colors,
     QWidget *parent = nullptr);
 
-public slots:
     void updateDisplay();
 
 protected:

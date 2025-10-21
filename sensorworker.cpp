@@ -3,42 +3,52 @@
 #include <QThread>
 #include <cmath>
 
-//using namespace std;
-
 SensorWorker::SensorWorker(int id,
                            std::vector<std::shared_ptr<std::atomic<float>>> *temps,
                            std::vector<QPointF> *positions,
                            float threshold,
                            QObject *parent)
-    : QThread(parent), id(id), temps(temps), positions(positions), threshold(threshold) {}
+    : QThread(parent),
+      sensorId(id),
+      allTemps(temps),
+      allPositions(positions),
+      distanceThreshold(threshold),
+      running(true)
+{}
+
+void SensorWorker::stop() {
+    running = false;
+}
 
 void SensorWorker::run() {
-    while (true) {
-        float myTemp = temps->at(id)->load();
-        QPointF myPos = positions->at(id);
+    while (running) {
+        if (!allTemps || !allPositions) break;
 
-        // Read nearby sensors
-        float sum = 0;
-        int count = 0;
+        float myTemp = (*allTemps)[sensorId]->load();
+        QPointF myPos = (*allPositions)[sensorId];
 
-        for (size_t i = 0; i < positions->size(); ++i) {
-            if (i == (size_t)id) continue;
+        float sum = myTemp;
+        int count = 1;
 
-            QPointF otherPos = positions->at(i);
-            float dist = std::hypot(myPos.x() - otherPos.x(), myPos.y() - otherPos.y());
-            if (dist < threshold) {
-                sum += temps->at(i)->load();
+        for (size_t i = 0; i < allPositions->size(); ++i) {
+            if (i == static_cast<size_t>(sensorId)) continue;
+
+            QPointF otherPos = (*allPositions)[i];
+            float dx = myPos.x() - otherPos.x();
+            float dy = myPos.y() - otherPos.y();
+            float dist = std::sqrt(dx * dx + dy * dy);
+
+            if (dist <= distanceThreshold) {
+                sum += (*allTemps)[i]->load();
                 ++count;
             }
         }
 
-        // Update my temperature based on neighbors
-        if (count > 0) {
-            float avg = sum / count;
-            float newTemp = myTemp + 0.1f * (avg - myTemp);  // small convergence factor
-            temps->at(id)->store(newTemp);
-        }
+        // Smooth convergence
+        float avg = sum / count;
+        float newTemp = myTemp + 0.1f * (avg - myTemp);
+        (*allTemps)[sensorId]->store(newTemp);
 
-        QThread::msleep(QRandomGenerator::global()->bounded(50, 200));
+        QThread::msleep(QRandomGenerator::global()->bounded(80, 200));
     }
 }

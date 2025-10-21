@@ -40,7 +40,6 @@ MainWindow::MainWindow(QWidget *parent)
 
     mainLayout->addLayout(buttonLayout);
 
-    // Timer for periodic GUI updates
     guiUpdateTimer = new QTimer(this);
     connect(guiUpdateTimer, &QTimer::timeout, this, &MainWindow::updateCanvasDisplay);
     guiUpdateTimer->start(50);
@@ -55,8 +54,8 @@ void MainWindow::clearSimulationData() {
     for (auto *worker : workers) {
         delete worker;
     }
-    worker.clear();
-    agents.clear();
+    workers.clear();
+    //agents.clear();
     temperatures.clear();
     positions.clear();
     colors.clear();
@@ -114,9 +113,6 @@ void MainWindow::loadConfigFile() {
                     QRandomGenerator::global()->bounded(256),
                     QRandomGenerator::global()->bounded(256)
                 ));
-
-                agents.push_back(std::make_unique<voronoi>(
-                    idCounter++, distanceThreshold, &temperatures, &positions));
             } else {
                 qWarning() << "Failed to parse line:" << line;
             }

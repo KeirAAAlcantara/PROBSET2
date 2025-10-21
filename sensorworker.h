@@ -5,20 +5,25 @@
 #include <vector>
 #include <QPointF>
 
+using namespace std;
+
 class SensorWorker : public QThread {
     Q_OBJECT
 public:
     SensorWorker(int id,
-                 std::vector<std::shared_ptr<std::atomic<float>>> *temps,
-                 std::vector<QPointF> *positions,
+                 vector<shared_ptr<atomic<float>>> *temps,
+                 vector<QPointF> *positions,
                  float threshold,
                  QObject *parent = nullptr);
 
-    void run() override;
+    void stop();
 
+protected:
+    void run() override;
 private:
-    int id;
-    std::vector<std::shared_ptr<std::atomic<float>>> *temps;
-    std::vector<QPointF> *positions;
-    float threshold;
+    int sensorId;
+    vector<shared_ptr<atomic<float>>> *allTemps;
+    vector<QPointF> *allPositions;
+    float distanceThreshold;
+    atomic<bool> running;
 };

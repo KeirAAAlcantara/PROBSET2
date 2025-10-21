@@ -10,7 +10,7 @@
 #include <memory>
 
 #include "Canvas.h"
-#include "voronoi.h"
+#include "sensorworker.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -28,15 +28,14 @@ private slots:
 private:
     void clearSimulationData();
 
-    Canvas *canvas = nullptr;
+    Canvas *canvas;
 
-    std::vector<std::shared_ptr<std::atomic<float>>> temperatures;
-    std::vector<SensorWorker*> workers;
-    std::vector<QPointF> positions;
-    std::vector<QColor> colors;
+    vector<shared_ptr<atomic<float>>> temperatures;
+    vector<SensorWorker*> workers;
+    vector<QPointF> positions;
+    vector<QColor> colors;
 
     float distanceThreshold = 0.0f;
-    std::vector<std::unique_ptr<voronoi>> agents;
 
-    QTimer *guiUpdateTimer = nullptr;
+    QTimer *guiUpdateTimer;
 };
