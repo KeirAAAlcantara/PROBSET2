@@ -203,6 +203,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainWindow.o: mainWindow.cpp.o
+.PHONY : mainWindow.o
+
+# target to build an object file
+mainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/mainWindow.cpp.o
+.PHONY : mainWindow.cpp.o
+
+mainWindow.i: mainWindow.cpp.i
+.PHONY : mainWindow.i
+
+# target to preprocess a source file
+mainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/mainWindow.cpp.i
+.PHONY : mainWindow.cpp.i
+
+mainWindow.s: mainWindow.cpp.s
+.PHONY : mainWindow.s
+
+# target to generate assembly for a file
+mainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/probSet2.dir/build.make CMakeFiles/probSet2.dir/mainWindow.cpp.s
+.PHONY : mainWindow.cpp.s
+
 probSet2_autogen/mocs_compilation.o: probSet2_autogen/mocs_compilation.cpp.o
 .PHONY : probSet2_autogen/mocs_compilation.o
 
@@ -268,6 +292,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainWindow.o"
+	@echo "... mainWindow.i"
+	@echo "... mainWindow.s"
 	@echo "... probSet2_autogen/mocs_compilation.o"
 	@echo "... probSet2_autogen/mocs_compilation.i"
 	@echo "... probSet2_autogen/mocs_compilation.s"

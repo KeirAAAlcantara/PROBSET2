@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QColor>
 #include <QPainter>
+#include <QPointF>
 #include <vector>
 #include <atomic>
 
@@ -12,16 +13,21 @@ using namespace std;
 class Canvas : public QWidget{
     Q_OBJECT
 public: 
-    Canvas(vector<atomic<float>> *temp = nullptr,
-    vector<QPointF> *positions = nullptr,
-    vector<QColor> *colors = nullptr,
+    Canvas(const vector<atomic<float>> *temp,
+    const vector<QPointF> *positions,
+    const vector<QColor> *colors,
     QWidget *parent = nullptr);
+
+    Q_SLOT void updateDisplay();
 
 protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
-    vector<atomic<float>> *temp;
-    vector<QPointF> *positions;
-    vector<QColor> *colors;
+    const vector<atomic<float>> *temp;
+    const vector<QPointF> *positions;
+    const vector<QColor> *colors;
+
+    float minTemp = 0.0f;
+    float maxTemp = 0.0f;
 };

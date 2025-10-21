@@ -3,29 +3,33 @@
 #include <vector>
 #include <atomic>
 #include <thread>
+#include <QPointF> 
 #include <cmath> 
-#include <QPoint> 
 
 using namespace std;
 
 class voronoi {
 
 public: 
-    voronoi(int id, float threshold, vector<atomic<float>> *temp, 
-            vector<QPointF> *positions);
+    voronoi(int id, float threshold, vector<atomic<float>> *allTemp, 
+            const vector<QPointF> *allPositions);
 
     void start();
     void stop();
-
-    static atomic<bool> running;
+    bool isRunning() const {
+        return running.load();
+    }
 
 private:
+    void run();
+    bool isNeighbor(int otherId);
+
     int id; 
     float threshold;
-    vector<atomic<float>> *temp;
-    vector<QPointF> *positions;
-    thread workerThread;
 
-    void run();
-    bool isNeighbor(int other Id);
+    vector<atomic<float>> *allTemp;
+    const vector<QPointF> *allPositions;
+
+    thread workerThread;
+    atomic<bool> running;
 };

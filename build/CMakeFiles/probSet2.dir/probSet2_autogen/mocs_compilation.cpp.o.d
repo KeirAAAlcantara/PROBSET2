@@ -545,7 +545,38 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20algorithm.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q23type_traits.h
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q23type_traits.h \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/moc_mainWindow.cpp \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../mainWindow.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QTimer \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtimer.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbasictimer.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qeventloop.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qelapsedtimer.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/karencafe/Desktop/probSet2/build/probSet2_autogen/EWIEGA46WW/../../../voronoi.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h

@@ -107,6 +107,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__function_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -182,6 +183,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/unique_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__nullptr \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
@@ -216,6 +218,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
@@ -257,6 +260,8 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo \
@@ -318,8 +323,13 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   CMakeFiles/4.1.1/CMakeSystem.cmake \
   probSet2_autogen/moc_predefs.h \
   /Users/karencafe/Desktop/probSet2/main.cpp \
+  /Users/karencafe/Desktop/probSet2/mainWindow.cpp \
+  /Users/karencafe/Desktop/probSet2/mainWindow.h \
   /Users/karencafe/Desktop/probSet2/reader.cpp \
   /Users/karencafe/Desktop/probSet2/reader.h \
+  /Users/karencafe/Desktop/probSet2/voronoi.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QPointF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
@@ -327,6 +337,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20utility.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
@@ -336,6 +347,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
@@ -354,8 +366,11 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
@@ -367,6 +382,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -429,6 +445,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -439,6 +456,7 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -463,20 +481,31 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
@@ -692,81 +721,23 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /usr/local/bin/cmake \
-  /usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake \
-  /usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/local/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /usr/local/share/cmake/Modules/CheckIncludeFileCXX.cmake \
   /usr/local/share/cmake/Modules/CheckLibraryExists.cmake \
-  /usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
-  /usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /usr/local/share/cmake/Modules/Compiler/Clang.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/FindOpenGL.cmake \
   /usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/local/share/cmake/Modules/FindPackageMessage.cmake \
@@ -774,19 +745,15 @@ probSet2_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.
   /usr/local/share/cmake/Modules/GNUInstallDirs.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/local/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang.cmake \
   /usr/local/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake \
-  /usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin.cmake \
   /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake \
@@ -1177,6 +1144,9 @@ CMakeFiles/probSet2.dir/Canvas.cpp.o: /Users/karencafe/Desktop/probSet2/Canvas.c
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/karencafe/Desktop/probSet2/Canvas.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPoint \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QRectF \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20functional.h \
@@ -1729,8 +1699,10 @@ CMakeFiles/probSet2.dir/main.cpp.o: /Users/karencafe/Desktop/probSet2/main.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/karencafe/Desktop/probSet2/Canvas.h \
-  /Users/karencafe/Desktop/probSet2/reader.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString \
+  /Users/karencafe/Desktop/probSet2/mainWindow.h \
+  /Users/karencafe/Desktop/probSet2/voronoi.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QTimer \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20functional.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20iterator.h \
@@ -1786,6 +1758,7 @@ CMakeFiles/probSet2.dir/main.cpp.o: /Users/karencafe/Desktop/probSet2/main.cpp \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qglobalstatic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevicebase.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiterable.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiterator.h \
@@ -1850,6 +1823,7 @@ CMakeFiles/probSet2.dir/main.cpp.o: /Users/karencafe/Desktop/probSet2/main.cpp \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtformat_impl.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtnoop.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtpreprocessorsupport.h \
@@ -1860,6 +1834,7 @@ CMakeFiles/probSet2.dir/main.cpp.o: /Users/karencafe/Desktop/probSet2/main.cpp \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtversionchecks.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtypeinfo.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtypes.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qutf8stringview.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvariant.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
@@ -1887,12 +1862,14 @@ CMakeFiles/probSet2.dir/main.cpp.o: /Users/karencafe/Desktop/probSet2/main.cpp \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpalette.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpicture.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpixelformat.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpixmap.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpolygon.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qregion.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qrgb.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtgui-config.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtguiexports.h \
@@ -1900,9 +1877,18 @@ CMakeFiles/probSet2.dir/main.cpp.o: /Users/karencafe/Desktop/probSet2/main.cpp \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtransform.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QApplication \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qapplication.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -2029,6 +2015,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__function_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -2104,6 +2091,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__nullptr \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
@@ -2138,6 +2126,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
@@ -2179,6 +2168,8 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
@@ -2292,7 +2283,12 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/karencafe/Desktop/probSet2/Canvas.h \
+  /Users/karencafe/Desktop/probSet2/mainWindow.h \
+  /Users/karencafe/Desktop/probSet2/voronoi.h \
   probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp \
+  probSet2_autogen/EWIEGA46WW/moc_mainWindow.cpp \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QTimer \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q17memory.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20algorithm.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20functional.h \
@@ -2302,6 +2298,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20utility.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q23type_traits.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qalgorithms.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qanystringview.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qarraydata.h \
@@ -2311,6 +2308,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qatomic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qatomic_cxx11.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbasicatomic.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbasictimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbindingstorage.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h \
@@ -2329,8 +2327,11 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qcontiguouscache.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdarwinhelpers.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdatastream.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qelapsedtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qendian.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qeventloop.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qexceptionhandling.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qflags.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qfloat16.h \
@@ -2342,6 +2343,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qglobalstatic.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevicebase.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiterable.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiterator.h \
@@ -2404,6 +2406,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtformat_impl.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtimer.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
@@ -2416,6 +2419,7 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtversionchecks.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtypeinfo.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtypes.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qutf8stringview.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvariant.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
@@ -2440,20 +2444,33 @@ CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o: probSet2_autoge
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpalette.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpicture.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpixelformat.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpixmap.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpolygon.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qregion.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qrgb.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtgui-config.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtguiexports.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtransform.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -2902,6 +2919,7 @@ CMakeFiles/probSet2.dir/reader.cpp.o: /Users/karencafe/Desktop/probSet2/reader.c
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
+  /Users/karencafe/Desktop/probSet2/reader.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QDebug \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QFile \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString \
@@ -3033,13 +3051,7 @@ CMakeFiles/probSet2.dir/reader.cpp.o: /Users/karencafe/Desktop/probSet2/reader.c
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtguiglobal.h
 
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QDebug:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
 
@@ -3083,10 +3095,6 @@ CMakeFiles/probSet2.dir/reader.cpp.o: /Users/karencafe/Desktop/probSet2/reader.c
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtmochelpers.h:
@@ -3097,17 +3105,39 @@ CMakeFiles/probSet2.dir/reader.cpp.o: /Users/karencafe/Desktop/probSet2/reader.c
 
 probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qapplication.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QPushButton:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QLabel:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QApplication:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qguiapplication.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qnativeinterface.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qlocale.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qcoreevent.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbasictimer.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h:
 
@@ -3175,10 +3205,6 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtcoreexports.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qicon.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtcore-config.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtconfigmacros.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtclasshelpermacros.h:
@@ -3198,6 +3224,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qstring.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qstdlibdetection.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qspan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
 
@@ -3257,6 +3285,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qfloat16.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qframe.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qendian.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdebug.h:
@@ -3311,6 +3341,10 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q17memory.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QDebug:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h:
@@ -3319,7 +3353,7 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
 
@@ -3328,6 +3362,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h:
+
+probSet2_autogen/EWIEGA46WW/moc_mainWindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h:
 
@@ -3346,6 +3382,10 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
 
@@ -3375,8 +3415,6 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/strings.h:
@@ -3384,6 +3422,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
@@ -3449,9 +3489,9 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextcursor.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
 
@@ -3481,6 +3521,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
@@ -3500,6 +3542,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20iterator.h:
 
@@ -3577,6 +3621,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
@@ -3599,8 +3645,6 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/identity.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
@@ -3621,6 +3665,10 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
@@ -3636,6 +3684,8 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
@@ -3684,8 +3734,6 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
 
@@ -3737,35 +3785,27 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qbitmap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Targets.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qstringconverter_base.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h:
 
@@ -3773,7 +3813,9 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
@@ -3783,15 +3825,19 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qstringliteral.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtversion.h:
 
@@ -3819,9 +3865,9 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /usr/local/share/cmake/Modules/Platform/Darwin.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h:
 
-/usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
+/usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h:
 
@@ -3841,75 +3887,13 @@ probSet2_autogen/EWIEGA46WW/moc_Canvas.cpp:
 
 /usr/local/share/cmake/Modules/FindThreads.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h:
-
-/usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h:
-
-/usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
-
-/usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
-
-/usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qglobal.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h:
-
-/usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
-
-/usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
-
-/usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
-
-CMakeFiles/4.1.1/CMakeSystem.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime:
-
-/usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h:
 
 /usr/local/share/cmake/Modules/CheckIncludeFileCXX.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake:
 
@@ -3917,59 +3901,11 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
-/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
-probSet2_autogen/moc_predefs.h:
-
-/usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
-
-/usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
-
-/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
-
-/usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/to_underlying.h:
 
 /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
 
-/usr/local/share/cmake/Modules/CMakeSystem.cmake.in:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbasictimer.h:
-
-/usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
-
-/usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
-
-/usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
 /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake:
-
-/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:
-
-/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
-
-/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
-
-/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
-
-/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
@@ -3978,6 +3914,8 @@ probSet2_autogen/moc_predefs.h:
 /usr/local/bin/cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPoint:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h:
 
@@ -4001,29 +3939,13 @@ probSet2_autogen/moc_predefs.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Targets.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfig.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
 
-/usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpixmap.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h:
 
@@ -4055,10 +3977,6 @@ probSet2_autogen/moc_predefs.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qspan.h:
-
-/usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
@@ -4071,19 +3989,19 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateVersionlessAliasTargets.cmake:
 
-/usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qglobal.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateDependencies.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersion.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_types.h:
 
-/usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
@@ -4123,12 +4041,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qrefcount.h:
@@ -4151,11 +4063,11 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextformat.h:
+
 /usr/local/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
-
-/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
@@ -4211,13 +4123,15 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
 
-/usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
 
@@ -4241,9 +4155,9 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/types.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
@@ -4258,10 +4172,6 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake:
-
-/usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake:
 
@@ -4280,8 +4190,6 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake:
 
@@ -4307,11 +4215,9 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
-
-/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake:
 
@@ -4322,6 +4228,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h:
 
 /usr/local/share/cmake/Modules/Compiler/GNU.cmake:
 
@@ -4351,6 +4259,8 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qlabel.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
@@ -4358,6 +4268,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
@@ -4368,6 +4280,12 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:
 
@@ -4425,8 +4343,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
-/usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/max.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h:
@@ -4437,11 +4353,15 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6Config.cmake:
 
@@ -4454,6 +4374,16 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:
 
@@ -4472,6 +4402,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h:
 
@@ -4493,9 +4425,13 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
 
-/usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h:
 
@@ -4517,8 +4453,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
 
-/usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
@@ -4531,15 +4465,17 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/QColor:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
@@ -4553,6 +4489,18 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/default_searcher.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_intptr_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h:
@@ -4561,23 +4509,13 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
-
-/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationdefinitions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h:
 
@@ -4601,35 +4539,29 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QFile:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qnamespace.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/span:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional_base:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtdeprecationdefinitions.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h:
 
@@ -4645,9 +4577,11 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread.h:
 
@@ -4659,31 +4593,7 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
-
-/usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/limits.h:
-
-/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int64_t.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qnamespace.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional_base:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qlist.h:
 
@@ -4725,9 +4635,11 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Desktop/probSet2/Canvas.cpp:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h:
 
-/usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpicture.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qalgorithms.h:
 
@@ -4740,6 +4652,10 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
@@ -4775,21 +4691,55 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/limits.h:
+
+/usr/local/share/cmake/Modules/CheckLibraryExists.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int64_t.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_null.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QTimer:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
@@ -4799,19 +4749,19 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
 
-/usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/span:
 
-/usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h:
 
@@ -4855,6 +4805,10 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
@@ -4869,6 +4823,20 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h:
 
+/usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qicon.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtcore-config.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/QPointF:
+
+/Users/karencafe/Desktop/probSet2/voronoi.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
 /Users/karencafe/Desktop/probSet2/reader.cpp:
@@ -4879,7 +4847,15 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+probSet2_autogen/moc_predefs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/exchange.h:
+
+CMakeFiles/4.1.1/CMakeSystem.cmake:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
 
@@ -4891,21 +4867,9 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int64_t.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h:
-
 /Users/karencafe/Desktop/probSet2/Canvas.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
 
@@ -4927,13 +4891,7 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/climits:
 
-/usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h:
-
-/usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
 
@@ -4961,14 +4919,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mach_port_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/default_searcher.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_intptr_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
@@ -4980,6 +4930,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
@@ -5000,8 +4952,6 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/qos.h:
-
-/usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
 
 /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
@@ -5035,6 +4985,10 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/utility:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qbitmap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator:
@@ -5057,6 +5011,8 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctime:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
@@ -5067,19 +5023,17 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_types.h:
 
-/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdexcept:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdbool.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtdeprecationdefinitions.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric:
 
@@ -5139,15 +5093,7 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_symbol_aliasing.h:
 
@@ -5166,6 +5112,12 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdlib:
 
@@ -5210,6 +5162,10 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cerrno:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h:
 
@@ -5259,6 +5215,8 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/swap.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h:
@@ -5281,6 +5239,10 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/cmp.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/as_const.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
@@ -5300,6 +5262,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qeventloop.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tuple:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__threading_support:
 
@@ -5321,23 +5285,17 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__availability:
-
-/usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/access.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
-
-/usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h:
 
@@ -5379,8 +5337,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
-/usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h:
@@ -5394,8 +5350,6 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
-
-/usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
@@ -5425,10 +5379,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__undef_macros:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
-
-/usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cwctype:
@@ -5450,8 +5400,6 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__mbstate_t.h:
-
-/usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
@@ -5481,13 +5429,13 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional_base:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qset.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
 
@@ -5496,6 +5444,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/not_fn.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/system_error:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
@@ -5519,12 +5469,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/function.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_null.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
@@ -5532,6 +5476,16 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h:
+
+/Users/karencafe/Desktop/probSet2/mainWindow.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake:
 
@@ -5551,6 +5505,8 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__availability:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
@@ -5562,6 +5518,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
@@ -5576,6 +5534,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20utility.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QTimer:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
 
@@ -5597,10 +5557,6 @@ probSet2_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/as_const.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_safety.h:
@@ -5616,6 +5572,8 @@ probSet2_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/bit:
 
@@ -5633,15 +5591,21 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
 
-/usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qstringconverter_base.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:
 
@@ -5657,9 +5621,13 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h:
 
+/Users/karencafe/Desktop/probSet2/mainWindow.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h:
 
@@ -5687,6 +5655,18 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/empty.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
@@ -5706,6 +5686,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qnumeric.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
@@ -5757,6 +5739,10 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
+/Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread:
+
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ctype.h:
@@ -5768,6 +5754,12 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
@@ -5789,7 +5781,11 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem:
+
+/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtimer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
@@ -5817,11 +5813,15 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
 
@@ -5847,8 +5847,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
-/usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/q20iterator.h:
 
 /usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
@@ -5857,19 +5855,11 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h:
-
-/Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
-
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qbasicatomic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle:
 
 /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 

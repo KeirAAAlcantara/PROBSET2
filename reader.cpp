@@ -4,16 +4,19 @@
 #include <sstream>
 #include <vector> 
 #include <QString> 
-#include "reader.h
+#include "reader.h"
 #include <cstdlib>
+#include <QDebug>
 
 using namespace std;
 
+/*
 struct SensorConfig{
     int x;
     int y;
     float temperature;
 };
+*/
 
 float distanceThreshold;
 vector<SensorConfig> sensors;

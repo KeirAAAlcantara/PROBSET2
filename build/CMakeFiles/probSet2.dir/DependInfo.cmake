@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "probSet2_autogen/timestamp" "custom" "probSet2_autogen/deps"
   "/Users/karencafe/Desktop/probSet2/Canvas.cpp" "CMakeFiles/probSet2.dir/Canvas.cpp.o" "gcc" "CMakeFiles/probSet2.dir/Canvas.cpp.o.d"
   "/Users/karencafe/Desktop/probSet2/main.cpp" "CMakeFiles/probSet2.dir/main.cpp.o" "gcc" "CMakeFiles/probSet2.dir/main.cpp.o.d"
+  "/Users/karencafe/Desktop/probSet2/mainWindow.cpp" "CMakeFiles/probSet2.dir/mainWindow.cpp.o" "gcc" "CMakeFiles/probSet2.dir/mainWindow.cpp.o.d"
   "/Users/karencafe/Desktop/probSet2/build/probSet2_autogen/mocs_compilation.cpp" "CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o.d"
   "/Users/karencafe/Desktop/probSet2/reader.cpp" "CMakeFiles/probSet2.dir/reader.cpp.o" "gcc" "CMakeFiles/probSet2.dir/reader.cpp.o.d"
   )

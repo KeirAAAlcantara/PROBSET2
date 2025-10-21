@@ -540,8 +540,9 @@ CMakeFiles/probSet2.dir/main.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/karencafe/Desktop/probSet2/Canvas.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/karencafe/Desktop/probSet2/mainWindow.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qaction.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qkeysequence.h \
@@ -554,15 +555,30 @@ CMakeFiles/probSet2.dir/main.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qfontinfo.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qfontvariableaxis.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QTimer \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtimer.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QPushButton \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/karencafe/Desktop/probSet2/Canvas.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/QColor \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/QPainter \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
+  /Users/karencafe/Desktop/probSet2/voronoi.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
-  /Users/karencafe/Desktop/probSet2/reader.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno

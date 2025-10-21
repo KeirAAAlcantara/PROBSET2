@@ -544,4 +544,7 @@ CMakeFiles/probSet2.dir/Canvas.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpainter.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qpen.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QRectF
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPointF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QRectF \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QPoint

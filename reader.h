@@ -14,4 +14,6 @@ struct SensorConfig{
 
 extern float distanceThreshold;
 extern vector<SensorConfig> sensors;
-vector<QColor> colors;
+extern vector<QColor> colors;
+
+void reader(const QString& fileName);

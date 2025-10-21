@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/probSet2.dir/Canvas.cpp.o.d"
   "CMakeFiles/probSet2.dir/main.cpp.o"
   "CMakeFiles/probSet2.dir/main.cpp.o.d"
+  "CMakeFiles/probSet2.dir/mainWindow.cpp.o"
+  "CMakeFiles/probSet2.dir/mainWindow.cpp.o.d"
   "CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/probSet2.dir/probSet2_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/probSet2.dir/reader.cpp.o"

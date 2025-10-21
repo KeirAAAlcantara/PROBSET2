@@ -1,24 +1,42 @@
 #include "voronoi.h"
 #include <chrono>
+#include <QDebug>
 
 atomic<bool> voronoi::running{true};
 
-voronoi::voronoi(int id, float threshold, vaector<atomic<float>> *temp, 
-                vector<QPointF> *positions)
-    : id(id), threshold(threshold), temp(temp), positions(positions){}
+voronoi::voronoi(int id, float threshold, vector<atomic<float>> *allTemp, 
+                const vector<QPointF> *allPositions)
+    : id(id), threshold(threshold), allTemp(allTemp), allPositions(allPositions), running(false){}
+
+voronoi::~voronoi(){
+    stop();
+}
+
 
 void voronoi::start(){
-    workerThread = thread(&voronoi::run, this);
+    if(!running.load()){
+        running = true;
+        workerThread = thread(&voronoi::run, this);
+        qInfo() << "voronoi" << id << "started";
+    }
 }
 
 void voronoi::stop(){
     running = false;
-    if(workerThread.joinable()) workerThread.join();
+    if(workerThread.joinable()) {
+        workerThread.join();
+        qInfo() << "voronoi" << id << "stopped";
+    }
 }
 
 bool voronoi::isNeighbor(int otherId){
-    QPointF p1 = positions->at(id);
-    QPointF p2 = positions->at(otherId);
+
+    if(id<0 || id >= allPositions->size() || otherId < 0 || otherId >= allPositions->size()){
+        return false;
+    }
+
+    QPointF p1 = allPositions->at(id);
+    QPointF p2 = allPositions->at(otherId);
     float dx = p1.x() - p2.x();
     float dy = p1.y() - p2.y();
 
@@ -26,19 +44,19 @@ bool voronoi::isNeighbor(int otherId){
 }
 
 void voronoi::run(){
-    while(running){
-        float sum = temp->at(id).load();
+    while(running.load()){
+        float sum = allTemp->at(id).load();
         int count = 1; 
 
-        for(size_t j=0; j<temp->size(); ++j){
-            if(j==id) continue'
+        for(size_t j=0; j<allTemp->size(); ++j){
+            if(j==id) continue;
             if(isNeighbor(j)){
-                sum+=temp->at(j).load();
+                sum+=allTemp->at(j).load();
                 count++;
             }
         }
         float avg=sum/count;
-        temp->at(id).store(avg);
+        allTemp->at(id).store(avg);
 
         this_thread::sleep_for(chrono::milliseconds(100));
     }

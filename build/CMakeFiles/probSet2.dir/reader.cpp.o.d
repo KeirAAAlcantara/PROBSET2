@@ -546,6 +546,9 @@ CMakeFiles/probSet2.dir/reader.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qspan.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/span \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString \
+  /Users/karencafe/Desktop/probSet2/reader.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/QColor \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qcolor.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
@@ -553,7 +556,6 @@ CMakeFiles/probSet2.dir/reader.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qtguiexports.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qrgb.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtGui.framework/Headers/qrgba64.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QDebug \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qdebug.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
@@ -569,5 +571,4 @@ CMakeFiles/probSet2.dir/reader.cpp.o: \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qshareddata_impl.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qset.h \
   /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qhash.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
-  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/QString
+  /Users/karencafe/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qvarlengtharray.h
